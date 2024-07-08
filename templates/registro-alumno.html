@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Administrador</title>
+    <link rel="icon" href="../static/img/logoutn.ico">
+    <link rel="stylesheet" href="../static/css/styles.css">
+    <link rel="stylesheet" href="../static/css/eprincipal.css">
+   
+ 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+</head>
+<body class="flex">
+ 
+    
+    
+        <main class="flex">
+     
+            <h2>Login</h2>
+            <form class="form-style-contacto"  id="form-login">
+                
+                <label for="username">Usuario:</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <label for="admin-key" id="admin-key-label">Clave de Administrador:</label>
+                <input type="password" id="admin-key" name="admin-key">
+                
+                <button type="submit">Iniciar Sesión</button>
+            </form>
+        </main>
+    
+        <script src="../static/js/login.js"></script>
+ 
+    <footer >
+        <button onclick="window.location.href='../index.html'" class="btn-atras">Volver al Menú Principal</button>
+        <p class="info">Pagina realizada para CAC Grupo 6</p>
+    </footer>
+
+</body>
